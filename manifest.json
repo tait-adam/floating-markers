@@ -1,0 +1,27 @@
+{
+    "package_name": "Markers",
+    "id": "com.example.marker_list",
+    "title": "Markers",
+    "version": "0.1.0",
+    "manufacturer": "Abu",
+    "description": "A list of the session's markers with their colours. Click a marker to move the playhead there, or press its number on the numpad. Numpad Enter plays and 0 stops then rewinds. Shift-click to loop, Backspace to delete, double-click to rename.",
+    "categories": [
+        "Utility"
+    ],
+    "sdk_version": "3.1.2",
+    "min_luna_version": "3.1.2",
+    "engines": [
+        "luna"
+    ],
+    "html": "index.html",
+    "target": "browser",
+    "targets": [
+        "browser",
+        "window"
+    ],
+    "floating": true,
+    "show_with_session": true,
+    "width": 320,
+    "height": 480,
+    "icon": "icon.png"
+}

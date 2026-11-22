@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Markers</title>
+  <style>
+    :root { color-scheme: dark; --accent: #F7C449; }
+    body { margin: 0; background: #151515; color: #ddd; font: 13px -apple-system, Helvetica, sans-serif; display: flex; flex-direction: column; height: 100vh; user-select: none; }
+    header { display: flex; align-items: center; gap: 10px; padding: 8px 12px; background: #222; border-bottom: 1px solid #333; }
+    header h1 { margin: 0; font-size: 13px; font-weight: 600; }
+    body[data-target="browser"] header h1 { display: none; }
+    #keys { font: 11px Menlo, monospace; padding: 2px 6px; border-radius: 4px; border: 1px solid #444; color: #666; }
+    #keys.on { border-color: var(--accent); color: var(--accent); }
+    #status { margin-left: auto; color: #888; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    main { flex: 1; overflow: auto; }
+    ul { list-style: none; margin: 0; padding: 0; }
+    li { display: flex; align-items: center; gap: 8px; padding: 6px 12px; border-bottom: 1px solid #222; cursor: pointer; }
+    li:hover { background: #1e1e1e; }
+    li.current { background: #2a2618; }
+    li.current .name { color: var(--accent); }
+    li.selected { background: #1c2733; }
+    li.selected.current { background: #2a2a24; }
+    li.looped { box-shadow: inset 3px 0 0 #4aa3ff; }
+    input.rename { flex: 1; min-width: 0; font: inherit; color: #fff; background: #0e0e0e; border: 1px solid var(--accent); border-radius: 3px; padding: 1px 4px; margin: -2px 0; outline: none; }
+    .num { width: 22px; text-align: right; color: #777; font: 12px Menlo, monospace; }
+    .swatch { width: 12px; height: 12px; border-radius: 2px; flex: none; box-shadow: inset 0 0 0 1px rgba(255,255,255,.15); }
+    .swatch.none { background: transparent; box-shadow: inset 0 0 0 1px #555; }
+    .name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .pos { color: #999; font: 12px Menlo, monospace; }
+    #empty { padding: 16px 12px; color: #777; }
+    #entry { position: fixed; right: 12px; bottom: 12px; padding: 6px 12px; border-radius: 6px; background: var(--accent); color: #000; font: 600 16px Menlo, monospace; opacity: 0; transition: opacity .15s; pointer-events: none; }
+    #entry.show { opacity: 1; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Markers</h1>
+    <span id="keys" title="Lit when this panel has focus and the numpad keys reach it: 1-9 jump (shift+number selects and loops), Enter plays, 0 stops then rewinds, Backspace deletes. Hover or click to give it focus.">123</span>
+    <div id="status">connecting...</div>
+  </header>
+  <main>
+    <ul id="markers"></ul>
+    <div id="empty" hidden>No markers in this session.</div>
+  </main>
+  <div id="entry"></div>
+  <script src="vendor/luna.global.js"></script>
+  <script src="logic.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

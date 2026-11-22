@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Markers: coloured markers on a ruler, and the list they make. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B2B2D"/>
+      <stop offset="1" stop-color="#141415"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="224" fill="url(#bg)"/>
+
+  <!-- ruler -->
+  <rect x="140" y="300" width="744" height="14" rx="7" fill="#4A4A4F"/>
+  <g fill="#4A4A4F">
+    <rect x="200" y="270" width="8" height="30" rx="4"/>
+    <rect x="320" y="282" width="8" height="18" rx="4"/>
+    <rect x="440" y="270" width="8" height="30" rx="4"/>
+    <rect x="560" y="282" width="8" height="18" rx="4"/>
+    <rect x="680" y="270" width="8" height="30" rx="4"/>
+    <rect x="800" y="282" width="8" height="18" rx="4"/>
+  </g>
+
+  <!-- markers: a flag head on a stem down to the ruler -->
+  <g>
+    <rect x="226" y="150" width="12" height="164" rx="6" fill="#E5584F"/>
+    <path d="M 226 140 h 112 a 20 20 0 0 1 14 34 l -20 22 l 20 22 a 20 20 0 0 1 -14 34 h -112 z" fill="#E5584F"/>
+    <rect x="476" y="150" width="12" height="164" rx="6" fill="#F7C449"/>
+    <path d="M 476 140 h 112 a 20 20 0 0 1 14 34 l -20 22 l 20 22 a 20 20 0 0 1 -14 34 h -112 z" fill="#F7C449"/>
+    <rect x="696" y="150" width="12" height="164" rx="6" fill="#4A9FE8"/>
+    <path d="M 696 140 h 112 a 20 20 0 0 1 14 34 l -20 22 l 20 22 a 20 20 0 0 1 -14 34 h -112 z" fill="#4A9FE8"/>
+  </g>
+
+  <!-- the list -->
+  <g>
+    <rect x="140" y="420" width="744" height="124" rx="34" fill="#232326"/>
+    <circle cx="214" cy="482" r="26" fill="#E5584F"/>
+    <rect x="270" y="466" width="360" height="32" rx="16" fill="#8C8C92"/>
+    <rect x="700" y="466" width="128" height="32" rx="16" fill="#4F4F55"/>
+
+    <rect x="140" y="574" width="744" height="124" rx="34" fill="#3A3220"/>
+    <rect x="140" y="574" width="744" height="124" rx="34" fill="none" stroke="#F7C449" stroke-width="6"/>
+    <circle cx="214" cy="636" r="26" fill="#F7C449"/>
+    <rect x="270" y="620" width="300" height="32" rx="16" fill="#E9E2CF"/>
+    <rect x="700" y="620" width="128" height="32" rx="16" fill="#8A7A4F"/>
+
+    <rect x="140" y="728" width="744" height="124" rx="34" fill="#232326"/>
+    <circle cx="214" cy="790" r="26" fill="#4A9FE8"/>
+    <rect x="270" y="774" width="400" height="32" rx="16" fill="#8C8C92"/>
+    <rect x="700" y="774" width="128" height="32" rx="16" fill="#4F4F55"/>
+  </g>
+</svg>
