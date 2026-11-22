@@ -1,6 +1,23 @@
-# Marker List
+# Markers
 
-A LUNA Add On built with `@uaudio/luna-builder-sdk`.
+A LUNA Add On that lists the session's markers with their colours. Click a marker to move the
+playhead there, or press its number on the numpad. Numpad Enter plays and 0 stops then rewinds.
+Shift-click to loop, Backspace to delete, double-click to rename.
+
+## Install
+
+**From LUNA:** paste `https://github.com/tait-adam/luna-markers` into **IMPORT URL** in LUNA's Add On
+showcase. LUNA installs the latest release.
+
+**From a download:** get `luna-markers.lunaaddon` from the
+[latest release](https://github.com/tait-adam/luna-markers/releases/latest) and double-click it. LUNA
+opens it and installs it.
+
+It then appears under **Add Ons > Browsers > Markers** (it can also open as a window).
+
+**From source:** clone this repo, then `npm install` and `npx ua-builder install`.
+
+## Development
 
 | File | Purpose |
 |---|---|
