@@ -24,7 +24,7 @@ async function connected() {
   return { engine, luna, session };
 }
 
-describe('Markers', () => {
+describe('Floating Markers', () => {
   it('lists markers in timeline order, numbered from 1, with colours', async () => {
     const { session } = await connected();
     const rows = logic.rows(session);

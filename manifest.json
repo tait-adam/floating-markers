@@ -1,11 +1,11 @@
 {
-    "package_name": "Markers",
-    "id": "com.abu.markers",
-    "title": "Markers",
-    "name": "Markers",
-    "version": "0.1.1",
+    "package_name": "Floating Markers",
+    "id": "com.abu.floating_markers",
+    "title": "Floating Markers",
+    "name": "Floating Markers",
+    "version": "0.1.2",
     "manufacturer": "Abu",
-    "description": "A list of the session's markers with their colours. Click a marker to move the playhead there, or press its number on the numpad. Numpad Enter plays and 0 stops then rewinds. Shift-click to loop, Backspace to delete, double-click to rename.",
+    "description": "A simple floating marker list with Logic-style recall: press a marker's number on the numpad to jump straight to it. Numpad Enter plays and 0 stops then rewinds, and a light shows when the window is ready for keys. Click a marker to locate, Shift-click to loop, Backspace to delete, double-click to rename.",
     "categories": [
         "Utility"
     ],
@@ -15,10 +15,10 @@
         "luna"
     ],
     "html": "index.html",
-    "target": "browser",
+    "target": "window",
     "targets": [
-        "browser",
-        "window"
+        "window",
+        "browser"
     ],
     "floating": true,
     "show_with_session": true,

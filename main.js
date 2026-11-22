@@ -1,4 +1,4 @@
-// Markers: DOM wiring. Connects to LUNA, follows the focused session, and renders what
+// Floating Markers: DOM wiring. Connects to LUNA, follows the focused session, and renders what
 // logic.js computes. Every listener is kept so it can be released when the session changes.
 
 const $ = (id) => document.getElementById(id);

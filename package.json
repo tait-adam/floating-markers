@@ -1,9 +1,9 @@
 {
-  "name": "marker_list",
+  "name": "floating_markers",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Marker List, a LUNA Add On built with @uaudio/luna-builder-sdk",
+  "description": "Floating Markers, a LUNA Add On built with @uaudio/luna-builder-sdk",
   "license": "MIT",
   "scripts": {
     "test": "vitest run",

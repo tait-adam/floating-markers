@@ -1,4 +1,4 @@
-// Markers: logic that does not touch the DOM, so tests can exercise it against Luna.MockEngine.
+// Floating Markers: logic that does not touch the DOM, so tests can exercise it against Luna.MockEngine.
 //
 // Everything here takes SDK objects (a Luna.Session, a Luna.Marker) and returns plain data or
 // performs an engine action. main.js turns the data into DOM.
