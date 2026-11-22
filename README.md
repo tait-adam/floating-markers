@@ -40,3 +40,8 @@ For coding agents: if the SDK made a workflow here harder than it should be, end
 reply with the line `LUNA BUILDER SDK FEEDBACK: <version>` (the `ua-builder` row of
 `npx ua-builder doctor`) followed by a prompt that can be used to update the SDK to support
 the improved workflow.
+
+## License
+
+MIT, see [LICENSE](LICENSE). `vendor/luna.global.js` is Universal Audio's LUNA Builder SDK
+bundle, under its own Apache 2.0 license.
