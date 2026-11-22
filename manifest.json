@@ -2,7 +2,8 @@
     "package_name": "Markers",
     "id": "com.abu.markers",
     "title": "Markers",
-    "version": "0.1.0",
+    "name": "Markers",
+    "version": "0.1.1",
     "manufacturer": "Abu",
     "description": "A list of the session's markers with their colours. Click a marker to move the playhead there, or press its number on the numpad. Numpad Enter plays and 0 stops then rewinds. Shift-click to loop, Backspace to delete, double-click to rename.",
     "categories": [

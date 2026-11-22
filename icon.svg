@@ -1,12 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
   <!-- Markers: coloured markers on a ruler, and the list they make. -->
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2B2B2D"/>
-      <stop offset="1" stop-color="#141415"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="0" width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1024" height="1024" rx="224" fill="#1D1D1F"/>
 
   <!-- ruler -->
   <rect x="140" y="300" width="744" height="14" rx="7" fill="#4A4A4F"/>

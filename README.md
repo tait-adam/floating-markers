@@ -4,6 +4,8 @@ A LUNA Add On that lists the session's markers with their colours. Click a marke
 playhead there, or press its number on the numpad. Numpad Enter plays and 0 stops then rewinds.
 Shift-click to loop, Backspace to delete, double-click to rename.
 
+<img src="screenshots/markers.png" width="320" alt="Markers listing seven coloured markers with their bar positions, the current one (Chorus) highlighted">
+
 ## Install
 
 **From LUNA:** paste `https://github.com/tait-adam/luna-markers` into **IMPORT URL** in LUNA's Add On
